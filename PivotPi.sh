@@ -34,27 +34,27 @@ if [ "$operation" == "x" ]; then
         exit
     elif [ "$operation" == "1" ]; then
 
-        cp config-0.txt $saveLocation
+        cp configs/config-0.txt $saveLocation
 
     elif [ "$operation" == "2" ]; then
 
-        cp config-90.txt $saveLocation
+        cp configs/config-90.txt $saveLocation
 
     elif [ "$operation" == "3" ]; then
 
-        cp config-180.txt $saveLocation
+        cp configs/config-180.txt $saveLocation
 
     elif [ "$operation" == "4" ]; then
 
-        cp config-270.txt $saveLocation
+        cp configs/config-270.txt $saveLocation
 
     elif [ "$operation" == "5" ]; then
 
-        cp config-horz.txt $saveLocation
+        cp configs/config-horz.txt $saveLocation
 
     elif [ "$operation" == "6" ]; then
 
-        cp config-ver.txt $saveLocation
+        cp configs/config-ver.txt $saveLocation
 
     else
         echo "Invalid operation. Please enter '1', '2', '3', '4', '5', '6' or 'x'."
