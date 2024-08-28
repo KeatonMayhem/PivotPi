@@ -50,7 +50,7 @@ if [ "$operation" == "x" ]; then
 
     elif [ "$operation" == "5" ]; then
 
-        cp config-hor.txt $saveLocation
+        cp config-horz.txt $saveLocation
 
     elif [ "$operation" == "6" ]; then
 
