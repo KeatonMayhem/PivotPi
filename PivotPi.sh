@@ -1,5 +1,10 @@
 #!/bin/bash
 
+saveLocation="/boot/firmware/config.txt"
+
+# Prompt user for operation
+    read -p "####################################################################
+
 # **************************************************************
 # *██████╗ ██╗██╗   ██╗ ██████╗ ████████╗██████╗ ██╗           *
 # *██╔══██╗██║██║   ██║██╔═══██╗╚══██╔══╝██╔══██╗██║           *
@@ -10,13 +15,6 @@
 # **************************************************************
 # Created by KeatonMayhem 2024
 
-#Current location is altered for testing, and reboot is commented out - 8/28/2024 KM
-
-#saveLocation="/boot/config.txt"
-saveLocation="/home/$USER/config.txt"
-
-# Prompt user for operation
-    read -p "####################################################################
 Do you want to:
 (1) 0° Orientation
 (2) 90° Orientation
@@ -67,4 +65,4 @@ echo "selection confirmed"
 sleep 1
 echo "rebooting system to take effect..."
 
-#reboot
+reboot
